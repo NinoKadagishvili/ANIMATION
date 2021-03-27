@@ -1,0 +1,175 @@
+.bg-image{ 
+  background-image: url(http://www.designsponge.com/wp-content/uploads/2014/08/JuliesKitchen_DS_wallpaper_pink_1920x1200.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  width: 1570px;
+  height: 930px;
+  
+}
+.ice-cream1{
+  background-image: url(https://www.svgrepo.com/show/4707/ice-cream.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  top: 150px;
+  left: 390px;
+  animation: love1  3s ease-in-out 2s infinite;
+  animation-direction: alternate;
+
+}
+  
+.ice-cream2{
+  background-image: url(https://www.svgrepo.com/show/2944/ice-cream.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 150px;
+  left: 1175px;
+  animation: love2 5s ease-in-out 2s infinite;
+  animation-direction: alternate;
+  
+}
+.ice-cream3{
+  background-image: url(https://www.svgrepo.com/show/8583/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 600px;
+  left: 800px;
+  animation: love3 5s ease-in 3s infinite;
+  animation-direction: alternate;
+}
+.ice-cream4{
+  background-image: url(https://www.svgrepo.com/show/31838/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 550px;
+  left: 550px;
+  animation: love4 5s ease-out 3s infinite;
+  animation-direction: alternate;
+}
+
+.ice-cream5{
+  background-image: url(https://www.svgrepo.com/show/169347/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 870px;
+  animation: love5 5s ease-out 3s infinite;
+  animation-direction: alternate;
+}
+.ice-cream6{
+  background-image: url(https://www.svgrepo.com/show/136619/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 250px;
+  left: 500px;
+  animation: love6 5s ease-in-out 3s infinite;
+  animation-direction: alternate;
+}
+.ice-cream7{
+  background-image: url(https://www.svgrepo.com/show/135908/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top: 550px;
+  left: 1200px;
+  animation: love7 5s  ease 3s infinite;
+  animation-direction: alternate;
+}
+.ice-cream8{
+  background-image: url(https://www.svgrepo.com/show/252009/ice-cream.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  top:400px;
+  left: 870px;
+  animation: love8 5s ease-in-out 3s infinite;
+  animation-direction: alternate;
+}
+.heat{
+  background-image: url(https://www.svgrepo.com/show/262343/temperatures-heat.svg);
+  position:absolute;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  top: 350px;
+  left: 1400px;
+  animation: heat 3s ease-in-out 3s infinite;
+  
+}
+
+
+/* keyframes */
+
+@keyframes love1 {
+  0%   {left: 100px; transform: rotate(45deg);}
+  25%  {left: 300px; transform: rotate(180deg);}
+  75%  {left: 100px; transform: rotate(90deg);}
+  100% {left: 200px; transform: rotate(45deg);}
+
+}
+
+@keyframes love2 {
+  0%   {left: 300px; transform: rotate(45deg);}
+  25%  {left: 400px; transform: rotate(180deg);}
+  75%  {left: 600px; transform: rotate(90deg);}
+  100% {left: 100px; transform: rotate(45deg);}
+}
+
+@keyframes love3 {
+  0%   {left: 200px; transform: rotate(45deg);}
+  25%  {left: 500px; transform: rotate(180deg);}
+  75%  {left: 800px; transform: rotate(360deg);}
+  100% {left: 350px; transform: rotate(180deg);}
+}
+@keyframes love4 {
+  0%   {left: 100px; transform: rotate(45deg);}
+  25%  {left: 200px; transform: rotate(90deg);}
+  75%  {left: 400px; transform: rotate(180deg);}
+  100% {left: 600px; transform: rotate(360deg);}
+}
+@keyframes love5 {
+  0%   {left: 600px; transform: rotate(90deg);}
+  25%  {left: 700px; transform: rotate(180deg);}
+  75%  {left: 800px; transform: rotate(360deg);}
+  100% {left: 300px; transform: rotate(45deg);}
+}
+@keyframes love6 {
+  0%   {left: 400px; transform: rotate(45deg);}
+  25%  {left: 300px; transform: rotate(180deg);}
+  75%  {left: 500px; transform: rotate(90deg);}
+  100% {left: 700px; transform: rotate(45deg);}
+}
+
+@keyframes love7 {
+  0%   {left: 300px; transform: rotate(45deg);}
+  25%  {left: 600px; transform: rotate(180deg);}
+  75%  {left: 250px; transform: rotate(360deg);}
+  100% {left: 400px; transform: rotate(180deg);}
+}
+
+@keyframes love8 {
+  0%   {left: 300px; transform: rotate(90deg);}
+  25%  {left: 250px; transform: rotate(180deg);}
+  75%  {left: 700px; transform: rotate(360deg);}
+  100% {left: 200px; transform: rotate(90deg);}
+}
+
+@keyframes heat {
+  from {top: 250px; width: 400px;}
+  to   {top: 400px; width: 200px;}
+}
+
